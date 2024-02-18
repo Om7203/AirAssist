@@ -1,0 +1,104 @@
+{
+    "intents": [
+        {
+            "intent_name": "start",
+            "keywords": ["hello", "hi", "hey", "hie", "hallo","restart","start", "begin"],
+            "answers": ["Welcome to Air Assist! Are you ready to book your flight?, To start just type 'book'."]
+        },                
+        {
+            "intent_name": "book",
+            "keywords": ["flight-ticket","Book flight","book","yes", "book a flight", "book a ticket", "book ticket", "I want to book a ticket"],
+            "answers": ["Please specify your destination."]
+        },
+        {
+            "intent_name": "departure",
+            "keywords": ["leave", "from", "depart", "departure", "go"],
+            "answers": ["Sure, where will you be departing from?"]
+        },
+        {
+            "intent_name": "date",
+            "keywords": ["schedule date","Book date","date","day"],
+            "answers": ["Enter your preferred flight date in YYYY-MM-DD format(eg- 2024-12-23)."]
+        },
+        {
+            "intent_name": "time",
+            "keywords": ["time","flight time","departure time","tim"],
+            "answers": ["Specify your preferred departure time in 24hr format (e.g., 13:00)."]
+        },
+        {
+            "intent_name": "class-type",
+            "keywords": ["class", "type", "seat", "category", "cabin", "economy", "business", "first"],
+            "answers": ["Understood! What class would you prefer for your flight? (Economy/Business/First)"]
+        },
+        {
+            "intent_name": "seats",
+            "keywords": ["seats", "passengers", "number of seats", "quantity", "people"],
+            "answers": ["Got it! How many passengers will be traveling?"]
+        },
+        {
+            "intent_name": "seat-number",
+            "keywords": ["number","seat number","seat-number"],
+            "answers": ["Please enter your preferred seat number (eg. 12, 121, 143)."]
+        },
+        {
+            "intent_name": "total-adults",
+            "keywords": ["number of adults","adults","persons"],
+            "answers": ["Enter the total number of adults traveling."]
+        },
+        {
+            "intent_name": "total-children",
+            "keywords": ["number of children","kids","children"],
+            "answers": ["Enter the number of children traveling."]
+        },
+        {
+            "intent_name": "food-services",
+            "keywords": ["food","Non-veg","non veg","meal","snacks","veg"],
+            "answers": ["Select any meal preference: Veg or Non-veg."]
+        },
+        {
+            "intent_name": "luggage-service",
+            "keywords": ["baggage","luggage","extra baggage", "lugg", "yes", "no"],
+            "answers": ["Do you need to add extra baggage? Please specify (yes or no)."]
+        },
+        {
+            "intent_name": "passenger-name",
+            "keywords": ["name", "passenger", "traveler"],
+            "answers": ["Could you please provide your full name?"]
+        },
+        {
+            "intent_name": "passport-number",
+            "keywords": ["passport", "number", "passport number"],
+            "answers": ["Thank you! Please enter your valid passport number?"]
+        },
+        {
+            "intent_name": "mobile-number",
+            "keywords": ["phone", "mobile", "number", "contact", "cellphone"],
+            "answers": ["Thank you! To confirm, could you please provide your mobile number?"]
+        },
+        {
+            "intent_name": "email-id",
+            "keywords": ["email", "email address", "mail", "electronic mail", "contact"],
+            "answers": ["Great! Could you please share your email address with us?"]
+        },
+        {
+            "intent_name": "payment-option",
+            "keywords": ["pay","payment","money","card","online","cash"],
+            "answers": ["Choose a payment option: Online payment or Cash."]
+        },
+        {
+            "intent_name": "ticket",
+            "keywords": ["ticket","print","details"],
+            "answers": ["Here's your flight confirmation. Bon voyage!"]
+        },
+        {
+            "intent_name": "edit",
+            "keywords": ["edit","change","modify"],
+            "answers": ["Specify the detail you want to modify (e.g., seat number, passenger details, payment option)."]
+        },
+        {
+            "intent_name": "restart",
+            "keywords": ["restart","reload","re","start"],
+            "answers": ["Let's start over. How can I assist you?"]
+        }
+    ]
+}

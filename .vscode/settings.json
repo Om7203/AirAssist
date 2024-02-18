@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/92b3a213-fa85-43b6-865b-ce463b8310ec/resourceGroups/AirAssist-rg/providers/Microsoft.Web/sites/air-assist",
+    "appService.deploySubpath": "backend"
+}
