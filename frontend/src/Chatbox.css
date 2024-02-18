@@ -1,0 +1,186 @@
+.chatbox-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-family: 'Arial', sans-serif;
+  background-image: url('./images/img4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 25px;
+  width: 50px; 
+  height: 50px;
+  cursor: pointer;
+}
+
+.toggle-button {
+  padding: 100px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.toggle-button img {
+  width: 50px;
+  height: 50px;
+}
+
+.chatbox {
+  border: 1px solid #4a1854;
+  border-radius: 8px;
+  max-width: 400px;
+  max-height: 100%;
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  background-color: rgb(95, 115, 129);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.timestamp {
+  font-family: 'Your Custom Font', sans-serif;
+  font-size: 0.8em;
+  color: #888;
+  margin-left: 8px;
+}
+
+
+.header {
+  padding: 10px;
+  background-color: rgb(63, 26, 118);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:relative;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: contain; 
+  opacity: 0.1; 
+  pointer-events: none; 
+  z-index: -1; 
+}
+
+
+.close-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.messages {
+  padding: 10px;
+  overflow-y: auto;
+  flex-grow: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: url('./images/img6.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.typing-indicator {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  color: #622727;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  max-width: 70%;
+  font-size: 12px;
+}
+
+.user-message {
+  align-self: flex-end;
+  background-color: #0f243b;
+  color: #fff;
+  text-align: right;
+  border-radius: 12px;
+}
+
+.bot-message {
+  align-self: flex-start;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: left;
+  border-radius: 12px;
+}
+
+
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+input {
+  flex-grow: 1;
+  padding: 8px;
+  margin-left: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.send-button {
+  background-color: transparent;
+  border: none;
+  padding: 7px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.material-icon {
+  font-family: 'Material Symbols Outlined';
+  font-weight: 400;
+  font-size: 25px;
+  color: #6fb571; 
+}
+
+.clear-button {
+  background-color: transparent;
+  border: none;
+  padding: 0px 10px 5px 10px;
+  cursor: pointer;
+  color: rgb(114, 52, 52);
+  font-size: 40px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.graphical-button {
+  background-color: rgb(63, 26, 118);
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 14px; 
+}
+
+.graphical-button:hover {
+  background-color: #2980b9;
+}
